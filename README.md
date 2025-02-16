@@ -7,5 +7,5 @@
 - Gantilah nama_proyek dengan nama yang Anda inginkan untuk aplikasi Laravel Anda.
 - Masuk ke Direktori Proyek: Setelah instalasi selesai, masuk ke direktori proyek Anda:
 ![Deskripsi Gambar](./Gambar/image2.png)
--Jalankan Server Lokal: Anda dapat menjalankan server pengembangan lokal dengan perintah:
+- Jalankan Server Lokal: Anda dapat menjalankan server pengembangan lokal dengan perintah:
 ![Deskripsi Gambar](./Gambar/image3.png)
