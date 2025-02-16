@@ -5,24 +5,33 @@
 - buka terminal dan install laravel ( versi 10)
 
     ![Deskripsi Gambar](./Gambar/image1.png)
+
 - Gantilah nama_proyek dengan nama yang Anda inginkan untuk aplikasi Laravel Anda.
 - Masuk ke Direktori Proyek: Setelah instalasi selesai, masuk ke direktori proyek Anda:
+    
     ![Deskripsi Gambar](./Gambar/image2.png)
 - Jalankan Server Lokal: Anda dapat menjalankan server pengembangan lokal dengan perintah:
+    
     ![Deskripsi Gambar](./Gambar/image3.png)
 ## 2. Persiapan Proyek CRUD
 - buatlah proyek Laravel dengan nama crud-app
+    
     ![Deskripsi Gambar](./Gambar/image4.png)
 - jalankan server
+    
     ![Deskripsi Gambar](./Gambar/image5.png)
 ## 3. Buat Database
 -   Buat Database: Buat database baru di MySQL, misalnya crud_db.
 - Konfigurasi Database: Edit file .env untuk mengatur koneksi database
+
 ![Deskripsi Gambar](./Gambar/image6.png)
 ## 4. Buat Model dan Migrasi
 - Buat Model dan Migrasi
+
 ![Deskripsi Gambar](./Gambar/image7.png)
 - Edit Migrasi: Buka file migrasi di database/migrations/xxxx_xx_xx_create_items_table.php dan tambahkan kolom:
+
 ![Deskripsi Gambar](./Gambar/image8.png)
 - Jalankan Migrasi
+
 ![Deskripsi Gambar](./Gambar/image9.png)
