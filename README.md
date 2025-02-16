@@ -55,12 +55,15 @@
      1. index.blade.php
 
      ![Deskripsi Gambar](./Gambar/image13.png)
+
      2. create.blade.php
 
      ![Deskripsi Gambar](./Gambar/image14.png)
+
      3. edit.blade.php
 
      ![Deskripsi Gambar](./Gambar/image15.png)
+     
      4. show.blade.php
 
      ![Deskripsi Gambar](./Gambar/image16.png)
