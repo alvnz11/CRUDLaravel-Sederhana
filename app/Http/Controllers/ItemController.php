@@ -24,10 +24,12 @@ class ItemController extends Controller
             'name' => 'required',
             'description' => 'required',
         ]);
-         // Hanya masukkan atribut yang diizinkan
-    Item::create($request->only(['name', 'description']));
+         
         //Item::create($request->all());
         //return redirect()->route('items.index');
+
+        // Hanya masukkan atribut yang diizinkan
+         Item::create($request->only(['name', 'description']));
         return redirect()->route('items.index')->with('success', 'Item added successfully.');
     }
 
@@ -47,17 +49,19 @@ class ItemController extends Controller
             'name' => 'required',
             'description' => 'required',
         ]);
-         // Hanya masukkan atribut yang diizinkan
-    $item->update($request->only(['name', 'description']));
+         
         //$item->update($request->all());
         //return redirect()->route('items.index');
+        // Hanya masukkan atribut yang diizinkan
+         $item->update($request->only(['name', 'description']));
         return redirect()->route('items.index')->with('success', 'Item updated successfully.');
     }
 
     public function destroy(Item $item)
     {
-        $item->delete();
+        
        // return redirect()->route('items.index');
+       $item->delete();
        return redirect()->route('items.index')->with('success', 'Item deleted successfully.');
     }
 }

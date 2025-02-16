@@ -35,3 +35,11 @@
 - Jalankan Migrasi
 
 ![Deskripsi Gambar](./Gambar/image9.png)
+## 5. Buat Controller
+- Buat Controller
+
+![Deskripsi Gambar](./Gambar/image10.png)
+- Implementasikan CRUD di Controller: Buka app/Http/Controllers/ItemController.php dan tambahkan kode berikut:
+
+![Deskripsi Gambar](./Gambar/image11A.png)
+![Deskripsi Gambar](./Gambar/image11B.png)
