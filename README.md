@@ -43,3 +43,16 @@
 
 ![Deskripsi Gambar](./Gambar/image11A.png)
 ![Deskripsi Gambar](./Gambar/image11B.png)
+
+## 6. Buat Routing
+-   Edit File Routing: Buka routes/web.php dan tambahkan
+
+![Deskripsi Gambar](./Gambar/image12.png)
+
+## 7. Buat View
+- Buat Folder Views: Buat folder items di resources/views.
+-   Buat File View:
+     1. index.blade.php
+     2. create.blade.php
+     3. edit.blade.php
+     4. show.blade.php
