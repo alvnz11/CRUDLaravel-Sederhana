@@ -10,3 +10,8 @@
     ![Deskripsi Gambar](./Gambar/image2.png)
 - Jalankan Server Lokal: Anda dapat menjalankan server pengembangan lokal dengan perintah:
     ![Deskripsi Gambar](./Gambar/image3.png)
+## 2. Persiapan Proyek CRUD
+- buatlah proyek Laravel dengan nama crud-app
+    ![Deskripsi Gambar](./Gambar/image4.png)
+- jalakan server
+    ![Deskripsi Gambar](./Gambar/image5.png)
