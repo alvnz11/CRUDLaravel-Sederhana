@@ -1,7 +1,7 @@
 # Membuat CRUD Laravel Sederhana NO CSS menggunakan Laravel dengan Eloquent ORM
 ## 1. Langkah-Langkah Instalasi
 - Install Composer 
-- Pastikan PHP versi 8.1 sudah terinstall atau lebih
+- Pastikan PHP versi 8.1 sudah terinstall atau lebih ( Laragon )
 - buka terminal dan install laravel ( versi 10)
 
     ![Deskripsi Gambar](./Gambar/image1.png)
@@ -64,3 +64,13 @@
      4. show.blade.php
 
      ![Deskripsi Gambar](./Gambar/image16.png)
+
+## 8. Done
+- Jalankan 
+
+  ![Deskripsi Gambar](./Gambar/image17.png)
+
+- hasilnya
+
+  ![Deskripsi Gambar](./Gambar/image18.png)
+
