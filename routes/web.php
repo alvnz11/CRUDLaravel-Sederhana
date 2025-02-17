@@ -1,7 +1,7 @@
-<?php
+<?php // Tag pembuka PHP
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ItemController;
+use Illuminate\Support\Facades\Route; // Mengimpor fasad Route untuk mendefinisikan rute
+use App\Http\Controllers\ItemController; // Mengimport ItemController
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +13,8 @@ use App\Http\Controllers\ItemController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function () { // Mendefinisikan route untuk halaman utama (root)
+    return view('welcome'); // Mengembalikan tampilan 'welcome' di view welcome.blade.php
 });
 
-Route::resource('items', ItemController::class);
+Route::resource('items', ItemController::class); // Membuat route resource (CRUD) dengan controller ItemController 
